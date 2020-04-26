@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="182.0" prefWidth="203.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Button fx:id="verProveedores" layoutX="-1.0" layoutY="237.0" mnemonicParsing="false" onMouseClicked="#Proveedores" prefHeight="25.0" prefWidth="153.0" text="Ver Proveedores" />
+      <Button fx:id="verFacturas" layoutX="152.0" layoutY="237.0" mnemonicParsing="false" onMouseClicked="#Facturas" prefHeight="25.0" prefWidth="153.0" text="Ver Facturas" />
+   </children>
+</AnchorPane>
